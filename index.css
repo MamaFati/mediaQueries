@@ -257,7 +257,7 @@ nav {
 /* Mobile Menu */
 .mobile-menu {
   position: fixed;
-  top: 0;
+  top: 20;
   right: -300px;
   width: 250px;
   height: 100%;
@@ -320,11 +320,10 @@ nav {
   .about-work-page,.styles,.about-us-container{
   grid-template-columns: 1fr;
 }
-  .hero .hero-buttons .btn {
-    margin-bottom: 10px;
-    display: block;
-    width: 100%;
-  }
+.about-us-container {
+  padding: 15px;
+}
+   
  
 
   /* Text */
